@@ -16,28 +16,34 @@ export default function Home() {
         {/* Content */}
         <div className="flex flex-col gap-3">
           {/* Category */}
-          <p className="bg-custom-yellow text-custom-gray-950 prose-sm prose prose-custom-mid h-[29px] w-[82px] rounded border px-3 py-1 text-center font-bold">
+          <div className="bg-custom-yellow text-custom-gray-950 prose-custom-mid h-[29px] w-[82px] rounded border px-3 py-1 text-center font-extrabold drop-shadow-[0px_4px_3px_rgba(0,0,0,0.3)]">
             Learning
-          </p>
+          </div>
           {/* publishDate */}
-          <p>Published 21 Dec 2023</p>
+          <p className="prose-custom-mid drop-shadow-[0px_4px_1.8px_rgba(0,0,0,0.3)]">
+            Published 21 Dec 2023
+          </p>
           {/* title */}
-          <h1>HTML & CSS foundation</h1>
+          <h1 className="text-custom-gray-950 text-2xl font-[1000]">
+            HTML & CSS foundations
+          </h1>
           {/* description */}
-          <p>
-            These languages are the backbone of every website, defining
-            structure, content, and presentation
+          <p className="text-custom-gray-500 text-xl font-[1000]">
+            These languages are the <br />
+            backbone of every website,
+            <br /> defining structure, content, <br />
+            and presentation
           </p>
         </div>
         {/* Author */}
-        <div>
+        <div className="flex items-center gap-3">
           <Image
             src="/assets/images/image-avatar.webp"
             alt="Author"
-            width={30}
-            height={30}
+            width={32}
+            height={32}
           ></Image>
-          <p>Greg Hooper</p>
+          <p className="prose-custom-mid font-[1000]">Greg Hooper</p>
         </div>
       </div>
     </div>
