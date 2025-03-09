@@ -50,8 +50,6 @@ Users should be able to:
 
 I introduced prettier-plugin-tailwindcss to enable automatic class sorting. Additionally, I learned about the Image tag in Next.js. I initially struggled with its usage and took some time to understand how to handle it properly. Eventually, I found that using the fill property is necessary to make the Image tag adapt to any size.
 
-I also experimented with implementing a design system in globals.css. However, I am unsure whether this approach aligns with Tailwind CSS's utility-first philosophy, making it a topic for further exploration.
-
 ```js
 <div className="relative h-[200px]">
   <Image
@@ -63,6 +61,8 @@ I also experimented with implementing a design system in globals.css. However, I
 </div>
 ```
 
+I also experimented with implementing a design system in globals.css. However, I am unsure whether this approach aligns with Tailwind CSS's utility-first philosophy, making it a topic for further exploration.
+
 ```css
 @theme {
   --color-custom-yellow: rgb(244, 208, 78);
@@ -73,24 +73,19 @@ I also experimented with implementing a design system in globals.css. However, I
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I encountered a situation where I was unsure whether to use a div or a p tag. Based on my current understanding, a p tag represents a block of text, while it is not suitable for elements that function as labels or tags. However, I realized that my understanding of semantic HTML is still lacking and that I need to study it further.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Additionally, I struggled with determining the appropriate level of customization for a design system, which made me recognize that my understanding is still shallow. Moving forward, I want to deepen my knowledge of naming conventions and CSS meta-frameworks while gaining more practical experience to fully grasp the utility-first philosophy of Tailwind CSS.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Using Images in Next.js (next/image examples)](https://www.youtube.com/watch?v=IU_qq_c_lKA) - This helped me for using Image tag in Next.js.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub - [BlonoBuccellati](https://github.com/BlonoBuccellati)
+- Frontend Mentor - [@BlonoBuccellati](https://www.frontendmentor.io/profile/BlonoBuccellati)
+- zenn - [@bln](https://zenn.dev/bln)
 
 ## Acknowledgments
 
