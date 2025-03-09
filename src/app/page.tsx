@@ -24,7 +24,7 @@ export default function Home() {
             Published 21 Dec 2023
           </p>
           {/* title */}
-          <h1 className="text-custom-gray-950 text-2xl font-[1000]">
+          <h1 className="text-custom-gray-950 hover:text-custom-yellow text-2xl font-[1000] hover:cursor-pointer">
             HTML & CSS foundations
           </h1>
           {/* description */}
