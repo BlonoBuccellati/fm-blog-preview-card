@@ -48,29 +48,28 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I introduced prettier-plugin-tailwindcss to enable automatic class sorting. Additionally, I learned about the Image tag in Next.js. I initially struggled with its usage and took some time to understand how to handle it properly. Eventually, I found that using the fill property is necessary to make the Image tag adapt to any size.
 
-To see how you can add code snippets, see below:
+I also experimented with implementing a design system in globals.css. However, I am unsure whether this approach aligns with Tailwind CSS's utility-first philosophy, making it a topic for further exploration.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+```js
+<div className="relative h-[200px]">
+  <Image
+    src="/assets/images/illustration-article.svg"
+    alt="Blog illustration"
+    fill
+    className="rounded-2xl object-cover"
+  />
+</div>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@theme {
+  --color-custom-yellow: rgb(244, 208, 78);
+  --color-custom-gray-500: rgb(107, 107, 107);
+  --color-custom-gray-950: rgb(17, 17, 17);
 }
 ```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
